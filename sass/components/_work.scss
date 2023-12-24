@@ -1,0 +1,68 @@
+.work{
+    padding: 17px 0;
+}
+.work-heading{
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+text-align: center;
+color: var(--Dark-Color, #21243D);
+}
+.work-img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+.work-card{
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+.work-title{
+font-family: Heebo;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+margin-bottom: 16px;
+color: var(--Dark-Color, #21243D);
+}
+.work-button{
+    display: flex;
+}
+.button-data{
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 22px;
+    margin-bottom: 25px;
+background: #142850;
+}
+.button-data > span{
+    color: #FFF;
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px;
+}
+.button{
+    color: var(--Light, #8695A4);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.work-text{
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 10px;
+color: var(--Dark-Color, #21243D);
+}
