@@ -17,17 +17,22 @@
     </header>
     <main>
         <section class="hero">
-        <div class="container">
+        <div class="container hero-div">
             <img class="hero-img" src="./img/hero.webp" alt="">
+            <div class="hero-content">
             <h1 class="hero-title">Hi, I am John, <br>
                 Creative Technologist</h1>
             <p class="hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             <button class="hero-button"><span>Download Resume</span></button>
         </div>
+        </div>
         </section>
         <section class="post">
             <div class="container">
+                <div class="post-div">
                 <h2 class="post-heading">Recent posts</h2>
+                <a class="post-view" href="">View all</a>
+            </div>
                 <ul class="post-list">
                     <li class="post-item">
                     <h3 class="item-heading">Making a design system from scratch</h3>
@@ -46,11 +51,13 @@
                 </ul>
             </div>
         </section>
-
         <section class="work">
             <div class="container">
                 <h2 class="work-heading">Featured works</h2>
-                <img class="work-img" src="./img/work.webp" alt="">
+            <ul class="work-list">
+                <li class="work-item">
+                    <img class="work-img" src="./img/work.webp" alt="">
+                    <div>
                 <div class="work-card">
                 <h3 class="work-title">Designing Dashboards</h3>
                     <button class="button-data"><span>2020</span></button>
@@ -58,18 +65,59 @@
                 </div>
                 <p class="work-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
+            </li>
+                <li class="work-item work-item-card">
+                    <img class="work-img" src="./img/work2.webp" alt="">
+                    <div>
+                <div class="work-card">
+                <h3 class="work-title">Vibrant Portraits of 2020</h3>
+                    <button class="button-data"><span>2018</span></button>
+                    <a class="button" href="">Illustration</a>
+                </div>
+                <p class="work-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+            </li>
+            <li class="work-item work-item-card hjg">
+                <img class="work-img" src="./img/work3.webp" alt="">
+                <div>
+            <div class="work-card">
+            <h3 class="work-title">36 Days of Malayalam type</h3>
+                <button class="button-data"><span>2018</span></button>
+                <a class="button" href="">Typography</a>
+            </div>
+            <p class="work-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        </li>
+            </ul>
+        </div>
         </section>
     </main>
-    <!-- <footer>
+    <footer class="footer">
         <div class="container">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class="network-list">
+            <li class="network-item">
+                <svg class="network-svg">
+                    <use href="./network.svg#face"></use>
+                </svg>
+            </li>
+            <li class="network-item">
+                <svg class="network-svg">
+                    <use href="./network.svg#insta"></use>
+                </svg>
+            </li>
+            <li class="network-item">
+                <svg class="network-svg">
+                    <use href="./network.svg#twitt"></use>
+                </svg>
+            </li>
+            <li class="network-item">
+                <svg class="network-svg">
+                    <use href="./network.svg#linkedin"></use>
+                </svg>
+            </li>
         </ul>
-        <p>Copyright ©2020 All rights reserved </p>
+        <p class="copyright-text">Copyright ©2020 All rights reserved </p>
     </div>
-    </footer> -->
+    </footer>
 </body>
 </html>

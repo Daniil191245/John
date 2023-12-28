@@ -1,6 +1,13 @@
 .post{
-    background: #EDF7FA;
+    background: $color-section;
     padding: 38px 0;
+}
+.post-div{
+    @media screen and (min-width:1150px){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 .post-heading{
 font-family: Heebo;
@@ -8,20 +15,53 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 60px;
-color: var(--Dark-Color, #21243D);
+color: $color-text;
 text-align: center;
 margin-bottom: 10px;
+@media screen and (min-width:1150px){
+    text-align: start;
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+}
+.post-view{
+    display: none;
+    @media screen and (min-width:1150px){
+        display: block;
+        font-family: Heebo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $view-secondry;
+    }
+
+}
+.post-list{
+    @media screen and (min-width:1150px){
+        display: flex;
+        justify-content: space-between;
+    }
 }
 .post-item:not(:last-child){
     margin-bottom: 17px;
+    @media screen and (min-width:1150px){
+        // margin-right: 20px;
+        margin-bottom: 0;
+    }
 }
 .post-item{
-    width: 354px;
-    height: 266px;
+    // width: 354px;
+    // height: 266px;
     border-radius: 4px;
-    background: #FFF;
+    background: $background-color;
     box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
     padding: 12px 19px;
+    @media screen and (min-width:1150px){
+        padding-top: 24px;
+        padding-bottom: 25px;
+        padding: 24px 23px 5px;
+    }
 }
 .item-heading{
         width: 327px;
@@ -31,7 +71,14 @@ margin-bottom: 10px;
     font-weight: 700;
     line-height: 30px;
     margin-bottom: 12px;
-    color: var(--Dark-Color, #21243D);
+    color: $color-text;
+    @media sceen and (min-width:1150px){
+        width: 374px;
+        height: 85px;
+        font-size: 26px;;
+        line-height: normal;
+        margin-bottom: 17px;
+    }
 }
 .item-data{
 font-family: Heebo;
@@ -39,7 +86,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-color: var(--Dark-Color, #21243D);
+color: $color-text;
 }
 .post-text{
 font-family: Heebo;
@@ -48,5 +95,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-top: 20px;
-color: var(--Dark-Color, #21243D);
+color: $color-text;
+@media screen and (min-width:1150px){
+    width: 368px;
+    height: 117px;
+}
 }

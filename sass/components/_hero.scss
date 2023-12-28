@@ -1,10 +1,28 @@
 .hero{
     padding: 33px 0 60px;
+    @media screen and (min-width:1150px){
+        padding: 140px 0 70px;
+    }
+}
+.hero-div{
+    @media screen and (min-width:1150px){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+.hero-content{
+    @media screen and (min-width:1150px){
+        margin-right: 110px;
+    }
 }
 .hero-img{
     display: block;
-margin: 0 auto;
-margin-bottom: 45px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+@media screen and (min-width:1150px){
+    width: 243px;
+    height: 243px;
+}
 }
 .hero-title{
     width: 312px;
@@ -15,7 +33,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: 40px;
-color: var(--Dark-Color, #21243D);
+color: $color-text;
 margin-bottom: 21px;
 
 @media screen and (min-width:1150px){
@@ -23,11 +41,12 @@ margin-bottom: 21px;
     font-size: 44px;
     line-height: 60px;
     text-align: justify;
+    margin-bottom: 40px;
 }
 }
 .hero-text{
     width: 328px;
-    color: var(--Dark-Color, #21243D);
+    color: $color-text;
 text-align: center;
 font-family: Heebo;
 font-size: 16px;
@@ -36,6 +55,13 @@ font-weight: 400;
 line-height: normal;
 margin: 0 auto;
 margin-bottom: 28px;
+
+@media screen and (min-width:1150px){
+    width: 497px;
+    height: 66px;
+    text-align: start;
+    margin-bottom: 38px;
+}
 }
 
 .hero-button{
@@ -45,8 +71,10 @@ margin-bottom: 28px;
     height: 47px;
     border-radius: 2px;
     cursor: pointer;
-background: var(--Primary, #FF6464);
-
+background: $button-color;
+@media screen and (min-width:1150px){
+    margin: 0;
+}
 }
 .hero-button > span{
     width: 167px;
@@ -56,5 +84,5 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-color: #FFF;
+color: $background-color;
 }

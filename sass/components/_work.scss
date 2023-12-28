@@ -1,5 +1,9 @@
 .work{
     padding: 17px 0;
+    margin-bottom: 150px;
+    @media screen and (min-width:1150px){
+        margin-bottom: 85px;
+    }
 }
 .work-heading{
 font-family: Heebo;
@@ -8,17 +12,47 @@ font-style: normal;
 font-weight: 400;
 line-height: 60px;
 text-align: center;
-color: var(--Dark-Color, #21243D);
+color: $color-text;
+@media screen and (min-width:1150px){
+    text-align: start;
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+}
+.work-item{
+    @media screen and (min-width:1150px){
+        display: flex;
+    }
+}
+.work-item:not(:last-child){
+    @media screen and (min-width:1150px){
+        margin-bottom: 45px;
+    }
+}
+.work-item-card{
+    display: none;
+    @media screen and (min-width:1150px){
+        display: flex;
+    }
 }
 .work-img{
     display: block;
     margin: 0 auto;
     margin-bottom: 17px;
+    @media screen and (min-width:1150px){
+        width: 246px;
+        height: 180px;
+        margin: 0;
+        margin-right: 18px;
+    }
 }
 .work-card{
     display: block;
     margin: 0 auto;
     padding-left: 10px;
+    @media screen and (min-width:1150px){
+        padding: 0;
+    }
 }
 .work-title{
 font-family: Heebo;
@@ -27,7 +61,10 @@ font-style: normal;
 font-weight: 700;
 line-height: 30px; 
 margin-bottom: 16px;
-color: var(--Dark-Color, #21243D);
+color: $color-text;
+@media screen and (min-width:1150px){
+font-size: 30px;
+}
 }
 .work-button{
     display: flex;
@@ -39,30 +76,53 @@ color: var(--Dark-Color, #21243D);
     cursor: pointer;
     margin-right: 22px;
     margin-bottom: 25px;
-background: #142850;
+    background: $color-button;
+    @media screen and (min-width:1150px){
+        margin-right: 26px;
+        margin-bottom: 22px;
+    }
 }
 .button-data > span{
-    color: #FFF;
 font-family: Heebo;
 font-size: 16px;
 font-style: normal;
 font-weight: 900;
 line-height: 25px;
+color: $background-color;
 }
 .button{
-    color: var(--Light, #8695A4);
 font-family: Heebo;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+color: $color-dashboard;
+@media screen and (min-width:1150px){
+    font-size: 20px;
+}
 }
 .work-text{
-font-family: Heebo;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-left: 10px;
-color: var(--Dark-Color, #21243D);
+    width: 344px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    color: $color-text;
+&::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 17px;
+    background-color: $decoration-item;
+    @media screen and (min-width:1150px){
+        display: none;
+    }
+}
+@media screen and (min-width:1150px){
+    width: 561px;
+    height: 75px;
+}
 }
