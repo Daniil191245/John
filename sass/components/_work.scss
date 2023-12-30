@@ -21,12 +21,24 @@ color: $color-text;
 }
 .work-item{
     @media screen and (min-width:1150px){
-        display: flex;
+        &::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            margin-top: 15px;
+            background-color: $decoration-item;
+        }
     }
 }
 .work-item:not(:last-child){
     @media screen and (min-width:1150px){
         margin-bottom: 45px;
+    }
+}
+.work-block{
+    @media screen and (min-width:1150px){
+        display: flex;
     }
 }
 .work-item-card{

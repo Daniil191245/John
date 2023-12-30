@@ -295,14 +295,25 @@ ol {
 }
 
 @media screen and (min-width: 1150px) {
-  .work-item {
-    display: flex;
+  .work-item::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 15px;
+    background-color: #E0E0E0;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .work-item:not(:last-child) {
     margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .work-block {
+    display: flex;
   }
 }
 
