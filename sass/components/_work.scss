@@ -29,11 +29,9 @@ color: $color-text;
             margin-top: 15px;
             background-color: $decoration-item;
         }
-    }
-}
-.work-item:not(:last-child){
-    @media screen and (min-width:1150px){
-        margin-bottom: 45px;
+        &:not(:last-child){
+            margin-bottom: 45px;
+        }
     }
 }
 .work-block{

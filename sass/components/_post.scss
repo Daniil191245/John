@@ -43,13 +43,6 @@ margin-bottom: 10px;
         justify-content: space-between;
     }
 }
-.post-item:not(:last-child){
-    margin-bottom: 17px;
-    @media screen and (min-width:1150px){
-        // margin-right: 20px;
-        margin-bottom: 0;
-    }
-}
 .post-item{
     // width: 354px;
     // height: 266px;
@@ -61,6 +54,12 @@ margin-bottom: 10px;
         padding-top: 24px;
         padding-bottom: 25px;
         padding: 24px 23px 5px;
+    }
+    &:not(:last-child){
+        margin-bottom: 17px;
+    @media screen and (min-width:1150px){
+        margin-bottom: 0;
+    }
     }
 }
 .item-heading{

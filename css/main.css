@@ -134,7 +134,6 @@ ol {
     margin: 0;
   }
 }
-
 .hero-button > span {
   width: 167px;
   height: 21px;
@@ -199,15 +198,6 @@ ol {
   }
 }
 
-.post-item:not(:last-child) {
-  margin-bottom: 17px;
-}
-@media screen and (min-width: 1150px) {
-  .post-item:not(:last-child) {
-    margin-bottom: 0;
-  }
-}
-
 .post-item {
   border-radius: 4px;
   background: #FFF;
@@ -219,6 +209,14 @@ ol {
     padding-top: 24px;
     padding-bottom: 25px;
     padding: 24px 23px 5px;
+  }
+}
+.post-item:not(:last-child) {
+  margin-bottom: 17px;
+}
+@media screen and (min-width: 1150px) {
+  .post-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
@@ -303,9 +301,6 @@ ol {
     margin-top: 15px;
     background-color: #E0E0E0;
   }
-}
-
-@media screen and (min-width: 1150px) {
   .work-item:not(:last-child) {
     margin-bottom: 45px;
   }
