@@ -1,0 +1,30 @@
+.footer{
+    padding-top: 51px;
+    padding-bottom: 54px;
+}
+.network-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+.network-item:not(:last-child){
+    margin-right: 35px;
+}
+.network-svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    fill: $color-text;
+    &:hover{
+        fill:$color-text;
+    }
+}
+.copyright-text{
+text-align: center;
+font-family: Heebo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: $color-text;
+}

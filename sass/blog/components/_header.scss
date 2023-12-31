@@ -1,0 +1,22 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.header-svg{
+    display: flex;
+    justify-content: end;
+}
+.nav-svg{
+    width: 30px;
+    height: 18px;
+    stroke:$color-text;
+    @media screen and (min-width:1150px){
+        display: none;
+    }
+}
+.navigation-list{
+    display: none;
+    @media screen and (min-width:1150px){
+        display: flex;
+    }
+}

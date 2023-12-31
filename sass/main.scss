@@ -1,10 +1,10 @@
-@import "./utils/vars";
-@import "./utils/mixin";
-@import "./utils/reset";
-@import "./utils/placeholders";
+@import "./home/utils/vars";
+@import "./home/utils/mixin";
+@import "./home/utils/reset";
+@import "./home/utils/placeholders";
 
-@import "./components/header";
-@import "./components/hero";
-@import "./components/post";
-@import "./components/work";
-@import "./components/footer";
+@import "./home/components/header";
+@import "./home/components/hero";
+@import "./home/components/post";
+@import "./home/components/work";
+@import "./home/components/footer";
