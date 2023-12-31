@@ -18,5 +18,24 @@
     display: none;
     @media screen and (min-width:1150px){
         display: flex;
+        
     }
+}
+.navigation-item{
+    @media screen and (min-width:1150px){
+        &:not(:last-child){
+            margin-right: 21px;
+        }
+    }
+}
+.navigation-a{
+font-family: Heebo;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: $navigation-color;
+&:hover{
+color: $button-color;
+}
 }
