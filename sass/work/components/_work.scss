@@ -1,0 +1,143 @@
+.work{
+    padding: 17px 0;
+    @media screen and (min-width:1150px){
+        margin-bottom: 60px;
+    }
+}
+.work-heading{
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    margin-bottom: 27px;
+color: $color-text;
+@media screen and (min-width:1150px){
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 45px;
+}
+}
+.work-item{
+    @media screen and (min-width:1150px){
+        &::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            margin-top: 45px;
+            background-color: $decoration-item;
+        }
+        &:not(:last-child){
+            margin-bottom: 45px;
+        }
+    }
+}
+.work-item-two{
+    margin-top: 22px;
+    @media screen and (min-width:1150px){
+        display: none;
+    }
+}
+.work-block{
+    @media screen and (min-width:1150px){
+        display: flex;
+    }
+}
+.work-item-card{
+    display: none;
+    @media screen and (min-width:1150px){
+        display: flex;
+    }
+}
+.work-img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    @media screen and (min-width:1150px){
+        width: 246px;
+        height: 180px;
+        margin: 0;
+        margin-right: 18px;
+    }
+}
+.work-card{
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+    @media screen and (min-width:1150px){
+        padding: 0;
+    }
+}
+.work-title{
+font-family: Heebo;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+margin-bottom: 16px;
+color: $color-text;
+@media screen and (min-width:1150px){
+font-size: 30px;
+}
+}
+.work-button{
+    display: flex;
+}
+.button-data{
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 22px;
+    margin-bottom: 25px;
+    background: $color-button;
+    @media screen and (min-width:1150px){
+        margin-right: 26px;
+        margin-bottom: 22px;
+    }
+}
+.button-data > span{
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px;
+color: $background-color;
+}
+.button{
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: $color-dashboard;
+@media screen and (min-width:1150px){
+    font-size: 20px;
+}
+}
+.work-text{
+    width: 344px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    color: $color-text;
+&::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 17px;
+    background-color: $decoration-item;
+    @media screen and (min-width:1150px){
+        display: none;
+    }
+}
+@media screen and (min-width:1150px){
+    width: 561px;
+    height: 75px;
+}
+}
