@@ -1,0 +1,69 @@
+.workDetail-heading{
+font-family: Heebo;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+margin-bottom: 24px;
+color: $color-text;
+@media screen and (min-width:1150px){
+font-size: 34px;
+line-height: normal;
+margin-bottom: 30px;
+}
+}
+.workDetail-div{
+display: flex;
+margin-bottom: 25px;
+}
+.workDetail-button{
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+background: $button-color;
+}
+.workDetail-data{
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+color: $background-color;
+}
+.workDetail-inf{
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: $color-text;
+}
+.workDetail-text{
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 23px;
+color: $navigation-color;
+@media screen and (min-width:1150px){
+    width: 681px;
+    height: 44px;
+}
+}
+.workDetail-img{
+    margin-bottom: 23px;
+    @media screen and (min-width:1150px){
+        width: 681px;
+height: 460px;
+    }
+}
+.workDetail-title{
+font-family: Heebo;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 60px;
+color: $color-text;
+}

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding-left: 11px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 1150px) {
+  .container {
+    width: 860px;
+    padding: 0px;
+  }
+}
+
+.workDetail-heading {
+  font-family: Heebo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 24px;
+  color: #21243D;
+}
+@media screen and (min-width: 1150px) {
+  .workDetail-heading {
+    font-size: 34px;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+}
+
+.workDetail-div {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.workDetail-button {
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-right: 15px;
+  background: #FF6464;
+}
+
+.workDetail-data {
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  color: #FFF;
+}
+
+.workDetail-inf {
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #21243D;
+}
+
+.workDetail-text {
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 23px;
+  color: #000000;
+}
+@media screen and (min-width: 1150px) {
+  .workDetail-text {
+    width: 681px;
+    height: 44px;
+  }
+}
+
+.workDetail-img {
+  margin-bottom: 23px;
+}
+@media screen and (min-width: 1150px) {
+  .workDetail-img {
+    width: 681px;
+    height: 460px;
+  }
+}
+
+.workDetail-title {
+  font-family: Heebo;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.footer {
+  padding-top: 51px;
+  padding-bottom: 54px;
+}
+
+.network-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.network-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.network-svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  fill: #21243D;
+}
+.network-svg:hover {
+  fill: #21243D;
+}
+
+.copyright-text {
+  text-align: center;
+  font-family: Heebo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #21243D;
+}
