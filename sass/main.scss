@@ -3,7 +3,9 @@
 @import "./home/utils/reset";
 @import "./home/utils/placeholders";
 
+@import "./home/base/base";
 @import "./home/components/header";
+@import "./home/components/mobileMenu";
 @import "./home/components/hero";
 @import "./home/components/post";
 @import "./home/components/work";

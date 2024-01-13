@@ -1,6 +1,8 @@
 @import "./work/utils/vars";
 @import "./work/utils/reset";
 
+@import "./work/base/base";
 @import "./work/components/header";
+@import "./work/components/mobileMenu";
 @import "./work/components/work";
 @import "./work/components/footer";

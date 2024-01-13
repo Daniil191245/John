@@ -1,6 +1,8 @@
 @import "./detail/utils/vars";
 @import "./detail/utils/reset";
 
+@import "./detail/base/base";
 @import "./detail/components/header";
+@import "./detail/components/mobileMenu";
 @import "./detail/components/workDetail";
 @import "./detail/components/footer";

@@ -10,9 +10,30 @@
 <body>
     <header class="header">
         <div class="container header-svg">
-        <svg class="nav-svg">
-            <use href="./symbol-defs.svg#icon-menu"></use>
-        </svg>
+            <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-item"><a class="navigation-a" href="./indexBlog.html">Blog</a></li>
+                <li class="navigation-item"><a class="navigation-a" href="./indexWork.html">Works</a></li>
+                <li class="navigation-item"><a class="navigation-a" href="./indexDetail.html">Contact</a></li>
+            </ul>
+            </nav>
+            <button class="mob-menu__button--open">
+                <svg class="nav-svg">
+                    <use href="./symbol-defs.svg#icon-menu"></use>
+                </svg>
+            </button>
+            <div class="mob-menu is-hidden">
+                <button class="mob-menu__button--close">
+                    <svg class="button-close">
+                        <use href="./symbol-defs.svg#button-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-list">
+                    <li class="mobile-item"><a class="mobile-a" href="./indexBlog.html">Blog</a></li>
+                    <li class="mobile-item"><a class="mobile-a" href="./indexWork.html">Works</a></li>
+                    <li class="mobile-item"><a class="mobile-a" href="./indexDetail.html">Contact</a></li>
+                </ul>
+            </div>
     </div>
     </header>
     <main>
@@ -125,5 +146,6 @@
         <p class="copyright-text">Copyright ©2020 All rights reserved </p>
     </div>
     </footer>
+    <script src="./js/mobileMenu.js"></script>
 </body>
 </html>

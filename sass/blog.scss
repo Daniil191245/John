@@ -3,6 +3,8 @@
 @import "./blog/utils/mixin";
 @import "./blog/utils/placeholders";
 
+@import "./blog/base/base";
 @import "./blog/components/header";
+@import "./blog/components/mobileMenu";
 @import "./blog/components/blog";
 @import "./blog/components/footer";
